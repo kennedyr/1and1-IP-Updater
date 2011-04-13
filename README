@@ -1,0 +1,8 @@
+This script monitors the server's external ip address for changes.  When a change is detected, 1and1's dns records for the domain name are updated to point to the new ip address.
+
+TODO:
+
+Connect the two scripts
+Clean up 1and1.py and put the config variables in the config file.
+Make it so 1and1.py can jump directly to the DNS update page (instead of crawling the links to get there)
+
